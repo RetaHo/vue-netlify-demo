@@ -4,6 +4,11 @@
     <router-link to="/about">About</router-link>
   </div>
   <div>Hello Word!</div>
+  <div>Hello Word!</div>
+  <div>Hello Word!</div>
+  <div>Hello Word!</div>
+  <div>Hello Word!</div>
+  <div>Hello Word!</div>
   <router-view/>
 </template>
 
