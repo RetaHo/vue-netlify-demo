@@ -9,17 +9,18 @@
   <div>Hello Word!</div>
   <div>Hello Word!</div>
   <div>Reta 你好！</div>
-  <form name="contact" netlify>
+  <form name="dogPictures" method="POST" data-netlify="true">
   <p>
-    <label>Name <input type="text" name="name" /></label>
+    <label>Dog’s Name: <input type="text" name="name" /></label>   
   </p>
   <p>
-    <label>Email <input type="email" name="email" /></label>
+    <label>Dog’s Picture: <input type="file" name="picture" /></label>
   </p>
   <p>
     <button type="submit">Send</button>
   </p>
 </form>
+
   <router-view/>
 </template>
 
